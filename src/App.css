@@ -199,17 +199,23 @@ h3 {
     min-height: 100dvh;
   }
   main{
-    grid-column: 3;
+    grid-column: 5;
     width:calc(100vw - 15rem - 5vw)
   }
 
 
 
   aside{
-    margin: auto;
-    grid-column: 2;
+  margin-top:45% ;
+  margin-left: 25%;
+    grid-column:1.80;
     width: 20rem;
     
   }
-
+.page-title{
+ font-weight: 750;
+ font-size:1.6em;
+  margin: 0;
+  font-size: x-large ;
+}
   
