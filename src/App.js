@@ -5,16 +5,16 @@ function App() {
   return (
     <div class="main-grid">
      <main class="testimonial-grid">
-     <div class="flex fox">
-     <img  src="./images/madhu.jpg"  class="testimonial grid-col-span-1" alt="daniel clifford"/></div>
-     <div class="flex fox">
-     <img src="./images/madhu.jpg" class="testimonial grid-col-span-2"/></div>
-     <div class="flex fox">
-     <img src="./images/madhu.jpg" class="testimonial grid-col-span-1" alt="Jeanette Harmon" /></div>
      <div class="flex">
-     <img src="./images/madhu.jpg" class="testimonial grid-col-span-2" alt="Kira Whittle" /></div>
-     <div class="flex">
-     <img  src="./images/madhu.jpg" class="testimonial grid-col-span-1" alt="Patrick Abrams" /></div>
+     <img  src="./images/1.png" style={{  width: '400px' ,height:'200px'}} class="testimonial grid-col-span-1" alt="daniel clifford"/></div>
+     <div class="flex ">
+     <img src="./images/carpenter.jpg"  class="testimonial grid-col-span-2"/></div>
+     <div class="flex ">
+     <img src="./images/2.png" style={{  width: '400px' ,height:'200px'}}   class="testimonial grid-col-span-1" alt="Jeanette Harmon" /></div>
+     <div class="flex1">
+     <img src="./images/4.png" class="testimonial grid-col-span-2" alt="Kira Whittle" /></div>
+     <div class="flex1 " >
+     <img  src="./images/3.png" style={{  width: '400px' ,height:'200px'}}  class="testimonial grid-col-span-1" alt="Patrick Abrams" /></div>
   
   </main>
     <aside>
