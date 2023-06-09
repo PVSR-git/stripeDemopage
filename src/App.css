@@ -102,7 +102,7 @@ padding: 4px;
 .flex1{
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: end;
 padding: 4px;
 }
 
