@@ -60,10 +60,8 @@ main{
   width:calc(100vw - 15rem - 5vw)
 }
 
-
-
 aside{
-  margin:60%;
+  margin:70%;
 
 margin-left:-10%;
   grid-column:2;
@@ -83,35 +81,35 @@ font-size: x-large ;
 
 /* utilities */
 
-
 .testimonial-grid  {
   display: grid;
   margin:10%;
-  gap:1rem;
+  gap:1.4rem;
  
   grid-template-columns: repeat(3,15rem);
   padding-block:0.5rem ;
  
 }
 .flex{
-  display: flex;
+  display: grid;
+ 
   justify-content: center;
   align-items: end;
 padding: 4px;
 }
 .flex1{
-  display: flex;
+  display: grid;
+  
   justify-content: center;
   align-items: start;
 padding: 4px;
 }
 
 img:hover{
-  scale:1.2
+  scale:1.5
 }
 .grid-col-span-2{
 height: 300px;
-
 
 }
 
@@ -121,7 +119,7 @@ height: 300px;
   font-size: .8125rem;
   font-size: var(--fs-400);
   padding: 2px;
-  transition: scale 400ms;
+  transition: scale 450ms;
 }
 
 
