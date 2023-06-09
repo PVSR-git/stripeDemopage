@@ -102,12 +102,12 @@ padding: 4px;
 .flex1{
   display: flex;
   justify-content: center;
-  align-items: end;
+  align-items: start;
 padding: 4px;
 }
 
 img:hover{
-  scale:1.1
+  scale:1.2
 }
 .grid-col-span-2{
 height: 300px;
@@ -115,16 +115,13 @@ height: 300px;
 
 }
 
-
-
-
-
-.testimonial  {
-  font-size: var(--fs-400);
- padding: 2px;
+.testimonial {
   border-radius: 0.5rem;
-  box-shadow: 2.5rem 2.7rem 2rem rgb(0, 255, 145);
- 
+  box-shadow: 2.5rem 2.7rem 2rem #00ff91;
+  font-size: .8125rem;
+  font-size: var(--fs-400);
+  padding: 2px;
+  transition: scale 400ms;
 }
 
 
