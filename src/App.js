@@ -5,11 +5,11 @@ function App() {
   return (
     <div class="main-grid">
      <main class="testimonial-grid">
-     <div class="flex">
+     <div class="flex fox">
      <img  src="./images/madhu.jpg"  class="testimonial grid-col-span-1" alt="daniel clifford"/></div>
-     <div class="flex">
+     <div class="flex fox">
      <img src="./images/madhu.jpg" class="testimonial grid-col-span-2"/></div>
-     <div class="flex">
+     <div class="flex fox">
      <img src="./images/madhu.jpg" class="testimonial grid-col-span-1" alt="Jeanette Harmon" /></div>
      <div class="flex">
      <img src="./images/madhu.jpg" class="testimonial grid-col-span-2" alt="Kira Whittle" /></div>

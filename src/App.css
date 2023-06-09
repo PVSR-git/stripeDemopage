@@ -54,6 +54,7 @@ background-color:whitesmoke;
   min-height: 100vh;
   min-height: 100dvh;
 }
+
 main{
   grid-column: 3;
   width:calc(100vw - 15rem - 5vw)
@@ -102,6 +103,9 @@ img{
 
   width: 15rem;
 }
+img:hover{
+  scale:1.1
+}
 .grid-col-span-2{
 height: 300px;
 
@@ -116,7 +120,7 @@ height: 300px;
   font-size: var(--fs-400);
  
   border-radius: 0.5rem;
-  box-shadow: 2.5rem 3.7rem 3rem red;
+  box-shadow: 2.5rem 2.7rem 2rem rgb(0, 255, 145);
  
 }
 
