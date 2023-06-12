@@ -85,7 +85,7 @@ font-size: x-large ;
   display: grid;
   margin:10%;
   gap:1.4rem;
- 
+  /* grid-template-columns: 64px 214px 214px 64px 214px; */
   grid-template-columns: repeat(3,15rem);
   padding-block:0.5rem ;
  
@@ -99,7 +99,7 @@ padding: 4px;
 }
 .flex1{
   display: grid;
-  
+  grid-template-rows: 2;
   justify-content: center;
   align-items: start;
 padding: 4px;
