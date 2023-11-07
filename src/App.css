@@ -147,11 +147,11 @@ img:hover {
   .main-grid {
     display: flex;
     flex-direction: column;
-    margin: 0;
+    margin: 0.5rem;
   }
   .testimonial-grid {
     display: grid;
-    margin: 1%;
+
     gap: 1rem;
     grid-template-columns: 64px 214px 214px 64px 214px;
 
@@ -187,5 +187,18 @@ img:hover {
   .testimonial-grid > div:nth-child(5) {
     grid-row: auto;
     grid-column: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  aside {
+    width: 100%;
+    margin: 0.4rem;
+  }
+  .page-title {
+    width: 90%;
+  }
+  .eyebrow {
+    width: 95%;
   }
 }
